@@ -11,15 +11,15 @@ const config: Config = {
     themes: [
       {
         lightTheme: {
-          primary: "#8700ff",
-          secondary: "#7e4e00",
-          accent: "#00c500",
-          neutral: "#110600",
-          "base-100": "#d8fffe",
-          info: "#23b0ff",
-          success: "#00ffc3",
-          warning: "#c19300",
-          error: "#cc2446",
+          "primary": "#0065ff",
+          "secondary": "#00d300",
+          "accent": "#00b000",
+          "neutral": "#212a32",
+          "base-100": "#fbfffb",
+          "info": "#00aee4",
+          "success": "#00ffc3",
+          "warning": "#c19300",
+          "error": "#cc2446",
           body: {
             "background-color": "#e3e6e6",
           }

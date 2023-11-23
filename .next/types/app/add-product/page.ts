@@ -1,4 +1,4 @@
-// File: C:\Users\Tyler\Documents\GitHub\NexusECommerce\nexus-ecommerce\src\app\add-product\page.tsx
+// File: C:\Users\Tyler\Documents\GitHub\NexusECommerce\src\app\add-product\page.tsx
 import * as entry from '../../../../src/app/add-product/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
