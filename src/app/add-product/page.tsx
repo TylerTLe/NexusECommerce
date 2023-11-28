@@ -1,9 +1,10 @@
+import FormSubmitButton from '@/components/FormSubmitButton';
 import prisma  from '@/lib/db/prisma';
 import { redirect } from 'next/navigation';
 
 export const metadata = {
-    title: 'Add Product - Nexus'
-}
+    title: 'Add Product - Nexus',
+};
 
 async function addProduct(formData: FormData) {
     "use server";
@@ -26,6 +27,9 @@ async function addProduct(formData: FormData) {
 export default function AddProductPage() {
     return (
         <div>
+            <head>
+            <link rel="icon" href="/src/app/favicon.ico" />
+            </head>
             <h1 className="text-lg mb-3 font-bold">Add Product</h1>
             <form action={addProduct}>
             <input 
@@ -34,7 +38,6 @@ export default function AddProductPage() {
             name="name"
             placeholder="Name" 
             className="input input-bordered w-full mb-3" />
-            </form>
             <textarea 
             required
             name="description"
@@ -52,7 +55,8 @@ export default function AddProductPage() {
             name="price"
             placeholder="Price" 
             className="input input-bordered w-full mb-3" />
-            <button type="submit" className="btn btn-primary btn-block"> Add Product</button>
+            <FormSubmitButton className="btn-block"> Add Product</FormSubmitButton>
+            </form>
         </div>
     );
 }

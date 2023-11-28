@@ -1,2 +1,2 @@
 # NexusECommerce
-CPRG-306 Final projcet
+CPRG-306 Final project
