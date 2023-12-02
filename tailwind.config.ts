@@ -15,14 +15,11 @@ const config: Config = {
           "secondary": "#FFD700",  // A bright gold, perfect for highlighting and accents.
           "accent": "#7C83FD",     // A softer purple, great for subtle highlights.
           "neutral": "#3A3B3C",    // A deep gray, suitable for text and primary content.
-          "base-100": "#FFFFFF",   // Pure white, for background and clean spaces.
+          "base-100": "#F0F2F5",   // Pure white, for background and clean spaces.
           "info": "#17A2B8",       // A calming blue, for informational elements.
           "success": "#28A745",    // A rich green, for success messages and icons.
           "warning": "#FFC107",    // A warm amber, for warnings and alerts.
-          "error": "#DC3545",      // A strong red, for errors and important cautions.
-          body: {
-              "background-color": "#F0F2F5", // A light gray, for a gentle body background.
-          }      
+          "error": "#DC3545",      // A strong red, for errors and important cautions.   
         },
       },
     ],

@@ -28,7 +28,7 @@ export default function ProductCard({product}: ProductCardProps){
                     {product.name}
                 </h2>
                     {isNew && (
-                        <span className="badge mx-2 badge-secondary">New!</span>
+                        <span className="badge badge-secondary">New!</span>
                     )}
                 <p>
                     {product.description}
