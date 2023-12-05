@@ -33,7 +33,7 @@ export default function ProductCard({product}: ProductCardProps){
                 <p>
                     {product.description}
                 </p>
-                <PriceTag price={product.price} className="badge-accent" />
+                <PriceTag price={product.price} className="badge-accent p-3" />
             </div>
         </Link>
 
