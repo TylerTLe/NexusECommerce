@@ -1,5 +1,5 @@
 import { mergeCart } from "@/lib/db/cart";
-import  { prisma }  from "@/lib/db/prisma";
+import { prisma } from "@/lib/db/prisma";
 import { env } from "@/lib/env";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import { PrismaClient } from "@prisma/client";
@@ -17,10 +17,10 @@ export const authOptions: NextAuthOptions = {
     }),
   ],
   callbacks: {
-    session({session, user}) {
+    session({ session, user }) {
       session.user.id = user.id;
       return session;
-    }
+    },
   },
   events: {
     async signIn({user}) {
