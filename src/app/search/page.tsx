@@ -1,9 +1,19 @@
 import ProductCard from '@/components/ProductCard'
 import prisma from '@/lib/db/prisma'
+import { Metadata } from 'next';
 import React from 'react'
 
 interface SearchPageProps {
     searchParams: { query: string }
+}
+
+export function generateMetadata({
+    searchParams: {query},
+}: SearchPageProps) : Metadata {
+    return {
+        title: `Search for "${query} | Nexus"`,
+        description: `Search results for "${query}"`,
+    };
 }
 
 export default async  function SearchPage({searchParams: {query}} : SearchPageProps) {
