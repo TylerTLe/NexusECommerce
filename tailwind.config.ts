@@ -13,7 +13,7 @@ const config: Config = {
         mainTheme: {
           "primary": "#34526E",    // A vibrant blue, ideal for key elements and calls to action.
           "secondary": "#FFD700",  // A bright gold, perfect for highlighting and accents.
-          "accent": "#26B7FD",     // A softer purple, great for subtle highlights.
+          "accent": "#34526E",     // A softer purple, great for subtle highlights.
           "neutral": "#3A3B3C",    // A deep gray, suitable for text and primary content.
           "base-100": "#F0F2F5",   // Pure white, for background and clean spaces.
           "info": "#17A2B8",       // A calming blue, for informational elements.
