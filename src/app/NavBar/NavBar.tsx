@@ -14,7 +14,7 @@ async function searchProducts(formData: FormData) {
 
     const searchQuery = formData.get('searchQuery')?.toString();
 
-    if (!searchQuery) {
+    if (searchQuery) {
         redirect('/search?query=' + searchQuery);
     }
 }
